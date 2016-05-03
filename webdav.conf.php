@@ -64,6 +64,7 @@
     <? foreach($users as $user) { ?>
 
     <Directory /var/www/users/<?=$user?>/>
+        Dav On
         AllowOverride None
         Options MultiViews Indexes SymLinksIfOwnerMatch IncludesNoExec
 
